@@ -14,7 +14,7 @@ const fibonacci = function(n) {
     return fibonacci(n-1) + fibonacci(n-2)
 }
 
-const setNumber = 8;
+const setNumber = 6;
 
 for(let i=1; i<=setNumber; i++) {
     console.log(fibonacci(i))
